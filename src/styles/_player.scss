@@ -42,13 +42,8 @@ input[type="range"]:focus {
 // * for slider bullet points
 input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
-  background: transparent;
-  border: none;
-}
-input[type="range"]::-moz-range-thumb {
-  -webkit-appearance: none;
-  background: transparent;
-  border: none;
+  height: 16px;
+  width: 16px;
 }
 
 .track {
@@ -70,6 +65,7 @@ input[type="range"]::-moz-range-thumb {
   transform: translateX(0);
   pointer-events: none;
 }
+
 
 @media screen and (max-width: 768px) {
   .time-control {
